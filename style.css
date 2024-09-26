@@ -1,0 +1,49 @@
+body {
+  font-family: 'Pacifico', cursive;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f0f0f0;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 30px;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+}
+
+#userGuess, #guessButton, #newGameButton {
+  padding: 10px 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+#userGuess {
+  width: 100px;
+}
+
+#guessButton, #newGameButton {
+  background-color: #333;
+  color: #fff;
+}
+
+#message {
+  font-weight: bold;
+}
